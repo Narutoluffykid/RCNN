@@ -1,5 +1,3 @@
-# RCNN
-
 # 数据集
 采用17flowers据集, 官网下载：http://www.robots.ox.ac.uk/~vgg/data/flowers/17/
 
@@ -7,7 +5,7 @@
 RCNN主要分为三个步骤：第一使用selective search在图片中选取2000个region proposal。第二对每一个region proposal用卷积神经网络（5层卷积+2层全连接）提取特征向量。第三使用一组线性SVM对特征向量进行分类。
 
 # felzenswalb(图像分割)：
-Step1:计算每个像素点与其8领域或4领域的不相似度
+Step1:计算每个像素点与其8领域或4领域的不相似度/n
 Step2:将边按照不相似度从小到大排序，e1,e2 …… en
 Step3:选择e1
 Step4:对当前所选择的边en进行合并判断，设en连接的点为{Vi,Vj},如果其满足合并条件
