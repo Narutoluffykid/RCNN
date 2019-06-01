@@ -1,6 +1,9 @@
 # 数据集
 采用17flowers据集, 官网下载：http://www.robots.ox.ac.uk/~vgg/data/flowers/17/
 
+# 环境
+windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn  
+
 # 论文思想
 RCNN主要分为三个步骤：第一使用selective search在图片中选取2000个region proposal。第二对每一个region proposal用卷积神经网络（5层卷积+2层全连接）提取特征向量。第三使用一组线性SVM对特征向量进行分类。
 
